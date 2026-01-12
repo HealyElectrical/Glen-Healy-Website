@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects | Glen Healy</title>
+  <meta name="description" content="Electrical engineering projects portfolio." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html">Glen Healy</a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="projects.html" aria-current="page">Projects</a>
+        <a href="resume.html">Resume</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h1>Projects</h1>
+
+      <div class="card">
+        <h2 style="margin-top: 0;">Automated Recycling Sorter</h2>
+        <p class="muted" style="margin-top: 6px;">
+          C++, computer vision, motor control, and 3D printed mechanisms.
+        </p>
+
+        <div class="tag-row">
+          <span class="tag">OpenCV</span>
+          <span class="tag">Robotics</span>
+          <span class="tag">Automation</span>
+          <span class="tag">CAD</span>
+        </div>
+
+        <p style="margin-top: 12px;">
+          Built an automated object-sorting system using real-time camera input, motor control, and custom 3D-printed components for the conveyor and sorting mechanism.
+        </p>
+
+        <div class="video-wrap" style="margin-top: 14px;">
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/AQUNxGtkrqM?rel=0"
+    title="Automated Recycling Sorter Demo"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
+</div>
+
+
+
+        <div class="cta-row" style="margin-top: 14px;">
+          <a class="btn btn-ghost" href="https://www.youtube.com/watch?v=AQUNxGtkrqM" target="_blank" rel="noreferrer">
+            Watch on YouTube
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span class="muted small">© <span id="year"></span> Glen Healy</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

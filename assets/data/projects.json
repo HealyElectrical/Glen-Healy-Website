@@ -1,0 +1,18 @@
+{
+  "projects": [
+    {
+      "slug": "automated-recycling-sorter",
+      "title": "Automated Recycling Sorter",
+      "subtitle": "C++, computer vision, motor control, 3D printed mechanisms",
+      "featured": true,
+      "date": "2024-03",
+      "tags": ["OpenCV", "Robotics", "Automation", "CAD"],
+      "summary": "Built an automated object-sorting system using real-time camera input, motor control, and custom 3D-printed components for the conveyor and sorting mechanism.",
+      "links": {
+        "writeup": "projects/automated-recycling-sorter.html",
+        "repo": "",
+        "demo": "https://www.youtube.com/watch?v=AQUNxGtkrqM"
+      }
+    }
+  ]
+}

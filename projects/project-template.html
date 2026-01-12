@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Project Title | Your Name</title>
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="../index.html">Your Name</a>
+      <nav class="nav">
+        <a href="../index.html">Home</a>
+        <a href="../projects.html">Projects</a>
+        <a href="../resume.html">Resume</a>
+        <a href="../index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h1>Project Title</h1>
+      <p class="subtitle">One-line purpose + stack (example: "FPGA UART + DMA, SystemVerilog, Quartus")</p>
+
+      <div class="tag-row">
+        <span class="tag">Embedded</span>
+        <span class="tag">FPGA</span>
+        <span class="tag">KiCad</span>
+      </div>
+
+      <div class="cta-row" style="margin-top: 14px;">
+        <a class="btn btn-ghost" href="https://github.com/HealyElectrical/REPO" target="_blank" rel="noreferrer">Repository</a>
+        <a class="btn btn-ghost" href="#" target="_blank" rel="noreferrer">Demo (optional)</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Overview</h2>
+      <div class="card">
+        <ul class="bullets">
+          <li><b>Problem:</b> What gap existed?</li>
+          <li><b>Goal:</b> What did you build?</li>
+          <li><b>Result:</b> Quantify (latency, accuracy, cost, power, speed).</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Requirements</h2>
+      <div class="card">
+        <ul class="bullets">
+          <li>Functional requirements (must do X, Y, Z)</li>
+          <li>Constraints (power, timing, BOM cost, size)</li>
+          <li>Interfaces (UART/I2C/SPI/Ethernet/etc.)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>System Design</h2>
+      <div class="card">
+        <p class="muted small">Add a block diagram image in <code>assets/img</code> and show it here.</p>
+        <p>Explain architecture: modules, dataflow, timing, state machines, etc.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Implementation</h2>
+      <div class="card">
+        <ul class="bullets">
+          <li>Key design decisions</li>
+          <li>Tricky bugs and how you solved them</li>
+          <li>Validation strategy (tests, measurement setup)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Validation and Results</h2>
+      <div class="card">
+        <ul class="bullets">
+          <li>How you verified correctness</li>
+          <li>Performance numbers</li>
+          <li>What you would improve next</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Gallery</h2>
+      <div class="card">
+        <p class="muted small">Drop images in <code>assets/img</code> and add them below.</p>
+        <ul class="bullets">
+          <li>Photo 1: wiring/PCB</li>
+          <li>Photo 2: scope capture</li>
+          <li>Photo 3: UI screenshot</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <a class="link" href="../projects.html">Back to Projects -&gt;</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span class="muted small">© <span id="year"></span> Your Name</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

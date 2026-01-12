@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Automated Recycling Sorter | Glen Healy</title>
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="../index.html">Glen Healy</a>
+      <nav class="nav">
+        <a href="../index.html">Home</a>
+        <a href="../projects.html" aria-current="page">Projects</a>
+        <a href="../resume.html">Resume</a>
+        <a href="../index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <h1>Automated Recycling Sorter</h1>
+      <p class="subtitle">C++, computer vision, motor control, 3D printed mechanisms</p>
+
+      <div class="tag-row">
+        <span class="tag">OpenCV</span>
+        <span class="tag">Robotics</span>
+        <span class="tag">Automation</span>
+        <span class="tag">CAD</span>
+      </div>
+
+      <div class="cta-row" style="margin-top: 14px;">
+        <a class="btn btn-ghost" href="https://www.youtube.com/watch?v=AQUNxGtkrqM" target="_blank" rel="noreferrer">Watch on YouTube</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Demo Video</h2>
+      <div class="card">
+        <div class="video-wrap">
+          <iframe
+            src="https://www.youtube.com/embed/AQUNxGtkrqM"
+            title="Automated Recycling Sorter Demo"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+        </div>
+        <p class="muted small" style="margin-top: 10px;">
+          Short description here (what the system does, what the camera detects, how sorting happens).
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Overview</h2>
+      <div class="card">
+        <ul class="bullets">
+          <li><b>Problem:</b> Automatically sort items based on visual features.</li>
+          <li><b>Approach:</b> Use real-time camera input + computer vision + motor control.</li>
+          <li><b>Outcome:</b> Prototype sorter with custom 3D-printed mechanical components.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <a class="link" href="../projects.html">Back to Projects -&gt;</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span class="muted small">© <span id="year"></span> Glen Healy</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
