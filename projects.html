@@ -6,7 +6,7 @@
   <title>Projects | Glen Healy</title>
   <meta name="description" content="Electrical engineering projects portfolio." />
   <link rel="stylesheet" href="assets/css/style.css" />
-  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta name="referrer" content="strict-origin-when-cross-origin">
 </head>
 <body>
   <header class="site-header">
@@ -42,18 +42,18 @@
           Built an automated object-sorting system using real-time camera input, motor control, and custom 3D-printed components for the conveyor and sorting mechanism.
         </p>
 
-        <div class="video-wrap" style="margin-top: 14px;">
-  <iframe
-    src="https://www.youtube-nocookie.com/embed/AQUNxGtkrqM?rel=0"
-    title="Automated Recycling Sorter Demo"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allowfullscreen>
-  </iframe>
+        <div class="card" style="margin-top:20px;">
+  <div style="display:flex;justify-content:center;">
+    <iframe
+      width="560" height="315"
+      src="https://www.youtube.com/watch?v=MLYZg1wN1v8"
+      title="Automated Recycling Sorter Demo"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
 </div>
-
-
 
         <div class="cta-row" style="margin-top: 14px;">
           <a class="btn btn-ghost" href="https://www.youtube.com/watch?v=AQUNxGtkrqM" target="_blank" rel="noreferrer">
@@ -61,6 +61,55 @@
           </a>
         </div>
       </div>
+<div class="card" style="margin-top: 18px;">
+  <h2 style="margin-top: 0;">Remote Video-Controlled Vehicle (Client–Server)</h2>
+  <p class="muted" style="margin-top: 6px;">
+    Raspberry Pi 4, client–server control, multi-camera video streaming, custom PCB HAT.
+  </p>
+
+  <div class="tag-row">
+    <span class="tag">Raspberry Pi 4</span>
+    <span class="tag">C++</span>
+    <span class="tag">Networking</span>
+    <span class="tag">Computer Vision</span>
+    <span class="tag">PCB (KiCad)</span>
+    <span class="tag">CAD / 3D Design</span>
+  </div>
+
+  <p style="margin-top: 12px;">
+    Designed and built a remote-controlled vehicle operated through a client–server architecture between a Raspberry Pi and my laptop.
+    The system streams live video and supports multiple camera views to help drive and aim the vehicle remotely. A custom PCB HAT was
+    designed and fabricated to integrate and power the vehicle’s hardware reliably.
+  </p>
+
+  <ul class="bullets">
+    <li><b>Software (C++ / OOP):</b> modular client–server control and command handling for vehicle functions</li>
+    <li><b>Video system:</b> real-time streaming with multiple camera views to support remote driving and targeting</li>
+    <li><b>Hardware integration:</b> Raspberry Pi 4-based control with a custom PCB HAT for power + I/O integration</li>
+    <li><b>Mechanical:</b> custom 3D-designed components to mount and protect the system</li>
+  </ul>
+
+  <div class="card" style="margin-top: 14px;">
+    <div style="display:flex;justify-content:center;">
+      <iframe
+        width="560" height="315"
+        src="https://www.youtube.com/embed/AQUNxGtkrqM"
+        title="Remote Video-Controlled Vehicle Demo"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+
+  <div class="cta-row" style="margin-top: 14px;">
+    <a class="btn btn-ghost" href="https://youtu.be/AQUNxGtkrqM" target="_blank" rel="noreferrer">
+      Watch on YouTube
+    </a>
+  </div>
+</div>
+
+
     </section>
   </main>
 
