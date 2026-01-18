@@ -1,3 +1,6 @@
+Site is here:
+https://healyelectrical.github.io/Glen-Healy-Website/
+
 # Glen-Healy-Website
 Website displaying personal projects and resume
 This repo hosts my GitHub Pages site.
