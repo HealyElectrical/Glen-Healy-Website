@@ -1,5 +1,5 @@
 Site is here:
-https://healyelectrical.github.io/Glen-Healy-Website/
+(http://www.glenhealy.com/)
 
 # Glen-Healy-Website
 Website displaying personal projects and resume
