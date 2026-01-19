@@ -40,7 +40,7 @@
       </div>
 
       <div class="hero-photo">
-  <img src="assets/img/Linkedin.jpg" alt="Glen Healy profile photo" class="profile-pic" />
+  <img src="assets/img/Profileb.jpeg" alt="Glen Healy profile photo" class="profile-pic" />
 </div>
 
     </section>
@@ -48,11 +48,11 @@
     <section class="section">
       <h2>About Me</h2>
       <p>
-        I'm an Electrical Engineering student at the British Columbia Institute of Technology (BCIT) with practical experience across circuit design, embedded systems, sensor integration, and control. I enjoy taking projects end-to-end: defining requirements, designing schematics and PCBs in KiCad, building mechanical parts in CAD (FreeCAD, SolidWorks, Autodesk Inventor), and validating systems with real measurements.
+        I’m an Electrical Engineering student at BCIT who loves building things that move, sense, and actually work. I take projects end-to-end: defining requirements, designing circuits and PCBs in KiCad, writing embedded firmware, integrating sensors, and modeling parts in CAD (FreeCAD/SolidWorks/Inventor) - then validating everything works together as a complete system.
 
-I'm currently working on a smart mailbox capstone project that I’m aiming to turn into a business. The system is designed with real-world reliability in mind, including a Raspberry Pi Pico 2 W microcontroller that can perform redundant, must-work actions alongside the main processor.
+Right now I’m building SmartPost, a smart mailbox capstone I’m pushing toward a real product. The main processor is a Raspberry Pi 4, backed by a Raspberry Pi Pico 2 W that can handle must-work actions for reliability alongside the Pi 4.
 
-I’m especially drawn to building small robots and automation projects that blend electronics, software, and 3D design. Longer-term, I’m also interested in renewable energy projects and electric transportation systems, from micro e-transit to full EV platforms.
+I’m happiest mixing robotics, automation, and 3D design, but I also genuinely enjoy core electrical design - especially power electronics and power systems (transmission and distribution). On top of that, I have a big interest in agricultural technology, and I’m excited about projects that combine sensing, automation, and energy systems to make real-world operations more efficient. Longer-term, I’m also drawn to renewable energy and electric transportation, from micro e-transit to full EV platforms.
       </p>
 
       <div class="grid-2">
@@ -83,17 +83,90 @@ I’m especially drawn to building small robots and automation projects that ble
     </section>
 
     <section class="section">
-      <div class="section-head">
-        <h2>Featured Projects</h2>
-        <a class="link" href="projects.html">See all projects -&gt;</a>
+  <div class="section-head">
+    <h2>Featured Projects</h2>
+    <a class="link" href="projects.html">See all projects -&gt;</a>
+  </div>
+
+  <div class="grid-3">
+
+    <!-- SmartPost -->
+    <article class="card project-card">
+      <div class="project-top">
+        <h3>SmartPost - Smart Package Receiver</h3>
+        <p class="muted small">IoT delivery security: weight verification + 3 cameras + automated locking</p>
       </div>
 
-      <div id="featured-projects" class="grid-3"></div>
-      <p class="small muted">
-        Tip: each project gets a short pitch on the homepage, and a full writeup on its own page
-        (overview, requirements, design, validation, results) - very similar to Mitchell's long-form style. :contentReference[oaicite:2]{index=2}
+      <p class="project-summary">
+        Built a secure, IoT-enabled package receiver on a Raspberry Pi 4 with HX711 load-cell sensing, multi-angle video, and a motorized door + locking system. Includes client-server networking for live view, notifications, and remote control.
       </p>
-    </section>
+
+      <div class="tag-row">
+        <span class="tag">Raspberry Pi 4</span>
+        <span class="tag">HX711</span>
+        <span class="tag">Networking</span>
+        <span class="tag">Computer Vision</span>
+      </div>
+
+      <div class="project-links">
+        <a class="btn btn-ghost" href="projects.html#smartpost">Details</a>
+        <a class="link" href="https://youtu.be/4N0fKaymQ2g" target="_blank" rel="noreferrer">Video</a>
+      </div>
+    </article>
+
+    <!-- Automated Recycling Sorter -->
+    <article class="card project-card">
+      <div class="project-top">
+        <h3>Automated Recycling Sorter</h3>
+        <p class="muted small">Computer vision + motor control + 3D printed mechanism</p>
+      </div>
+
+      <p class="project-summary">
+        Automated object sorting using real-time camera input (OpenCV), motor control logic, and custom 3D-printed mechanical parts for the conveyor and diverter system.
+      </p>
+
+      <div class="tag-row">
+        <span class="tag">OpenCV</span>
+        <span class="tag">Robotics</span>
+        <span class="tag">Automation</span>
+        <span class="tag">CAD</span>
+      </div>
+
+      <div class="project-links">
+        <a class="btn btn-ghost" href="projects.html#recycling-sorter">Details</a>
+        <a class="link" href="https://www.youtube.com/watch?v=MLYZg1wN1v8" target="_blank" rel="noreferrer">Video</a>
+      </div>
+    </article>
+
+    <!-- Remote Vehicle -->
+    <article class="card project-card">
+      <div class="project-top">
+        <h3>Remote Video-Controlled Vehicle</h3>
+        <p class="muted small">Client-server control + live video + custom PCB HAT</p>
+      </div>
+
+      <p class="project-summary">
+        Remote-operated vehicle using a Raspberry Pi 4 and a laptop connected via a client-server architecture. Includes live video streaming, multi-camera views, and a custom PCB HAT for power and I/O integration.
+      </p>
+
+      <div class="tag-row">
+        <span class="tag">C++</span>
+        <span class="tag">Networking</span>
+        <span class="tag">PCB (KiCad)</span>
+        <span class="tag">Raspberry Pi</span>
+      </div>
+
+      <div class="project-links">
+        <a class="btn btn-ghost" href="projects.html#remote-vehicle">Details</a>
+        <a class="link" href="https://youtu.be/AQUNxGtkrqM" target="_blank" rel="noreferrer">Video</a>
+      </div>
+    </article>
+
+  </div>
+
+  
+</section>
+
 
     <section class="section">
   <h2>Education</h2>
@@ -149,12 +222,17 @@ I’m especially drawn to building small robots and automation projects that ble
   </main>
 
   <footer class="site-footer">
-    <div class="container">
-      <span class="muted small">© <span id="year"></span> Glen Healy</span>
-      <span class="muted small">•</span>
-      <a class="muted small" href="https://github.com/HealyElectrical" target="_blank" rel="noreferrer">Site source</a>
-    </div>
-  </footer>
+  <div class="container">
+    <span class="muted small">© <span id="year"></span> Glen Healy</span>
+    <span class="muted small"> • </span>
+    <a class="muted small"
+       href="https://github.com/HealyElectrical/Glen-Healy-Website"
+       target="_blank"
+       rel="noreferrer">
+      Site source code (GitHub)
+    </a>
+  </div>
+</footer>
 
   <script src="assets/js/projects.js"></script>
   <script>
