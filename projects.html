@@ -24,6 +24,51 @@
   <main class="container">
     <section class="section">
       <h1>Projects</h1>
+
+    <!-- Project: Digital SCARA Robot -->
+<div class="card" style="margin-top: 18px;">
+  <h2 style="margin-top: 0;">Digital SCARA Robot</h2>
+  <p class="muted" style="margin-top: 6px;">
+    C++ robotics demo with OpenCV + cvui: AR visualization, pose tracking, IK/FK, and smooth trajectories.
+  </p>
+
+  <div class="tag-row">
+    <span class="tag">C++</span>
+    <span class="tag">OpenCV</span>
+    <span class="tag">cvui</span>
+    <span class="tag">Robotics</span>
+    <span class="tag">Kinematics</span>
+    <span class="tag">AR / Vision</span>
+  </div>
+
+  <p style="margin-top: 12px;">
+    This project is a C++ robotics demo built with OpenCV for visualization and vision, and cvui for an interactive control panel.
+    A virtual camera renders a 3D workspace (robot links, axes, and target cubes) into the live camera view while sliders/buttons
+    let you adjust camera and robot settings in real time. ChArUco markers provide reliable pose/orientation tracking so targets can
+    be defined in the real scene and treated as “digital cubes” in the simulator. Forward kinematics maps joint angles to the end-effector
+    pose, inverse kinematics solves the joint angles needed to reach a desired (x, y, z, theta), and trajectory generation creates smooth
+    motion between targets so the end effector can move cleanly and repeatably from cube to cube.
+  </p>
+
+  <div style="margin-top: 14px; display: flex; justify-content: center;">
+    <iframe
+      width="560" height="315"
+      src="https://www.youtube.com/embed/cLXfE6M3GJY"
+      title="Digital SCARA Robot Demo"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <div class="cta-row" style="margin-top: 14px;">
+    <a class="btn btn-ghost" href="https://youtu.be/cLXfE6M3GJY" target="_blank" rel="noreferrer">
+      Watch on YouTube
+    </a>
+  </div>
+</div>
+
+
 <!-- Project 3 -->
       <div class="card" style="margin-top: 18px;">
         <h2 style="margin-top: 0;">SmartPost – Smart Package Receiver (Product Development Lead)</h2>
